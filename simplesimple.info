@@ -1,0 +1,134 @@
+; Packaging information for simplesimple
+name = "SimpleSimple"
+description = "Custom install profile for Simple Simple websites"
+exclusive = "1"
+core = "7.x"
+
+; ----------
+; Dependencies
+; ----------
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+; contrib
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
+dependencies[] = module_filter
+dependencies[] = libraries
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = devel
+dependencies[] = profiler_builder
+dependencies[] = location_cck
+dependencies[] = location
+dependencies[] = wysiwyg
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = bundle_copy
+dependencies[] = ds
+dependencies[] = ds_ui
+dependencies[] = ds_devel
+dependencies[] = ds_extras
+dependencies[] = ds_format
+dependencies[] = html5_tools
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = jquery_ui
+dependencies[] = jquery_update
+dependencies[] = link
+dependencies[] = location
+dependencies[] = location_cck
+dependencies[] = taxonomy_manager
+dependencies[] = token
+dependencies[] = views_bulk_operations
+dependencies[] = webform
+dependencies[] = uuid
+dependencies[] = role_export
+dependencies[] = videojs
+
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'adminimal'
+variables[anonymous] = 'Anonymous'
+variables[date_api_version] = '7.2'
+variables[date_default_timezone] = 'America/Edmonton'
+variables[date_views_day_format_without_year] = 'l, F j'
+variables[date_views_day_format_with_year] = 'l, F j, Y'
+variables[date_views_month_format_without_year] = 'F'
+variables[date_views_month_format_with_year] = 'F Y'
+variables[date_views_week_format_without_year] = 'F j'
+variables[date_views_week_format_with_year] = 'F j, Y'
+variables[filter_fallback_format] = 'plain_text'
+variables[javascript_parsed][0] = 'misc/drupal.js'
+variables[javascript_parsed][1] = 'misc/jquery.js'
+variables[javascript_parsed][2] = 'misc/jquery.once.js'
+variables[javascript_parsed][3] = 'sites/all/themes/basic/js/build/scripts.js'
+variables[javascript_parsed][4] = 'sites/all/themes/basic/js/build/modernizr.js'
+variables[javascript_parsed][5] = 'sites/all/modules/devel/devel_krumo_path.js'
+variables[javascript_parsed][6] = 'sites/all/modules/adminimal_admin_menu/adminimal_admin_menu.js'
+variables[javascript_parsed][7] = 'sites/all/modules/admin_menu/admin_menu.js'
+variables[javascript_parsed][8] = 'sites/all/themes/adminimal_theme/js/jRespond.js'
+variables[javascript_parsed][9] = 'sites/all/themes/adminimal_theme/js/adminimal_theme.js'
+variables[javascript_parsed][10] = 'misc/tableheader.js'
+variables[javascript_parsed][11] = 'misc/form.js'
+variables[javascript_parsed][12] = 'misc/collapse.js'
+variables[javascript_parsed][13] = 'misc/textarea.js'
+variables[javascript_parsed][14] = 'modules/user/user.js'
+variables[javascript_parsed][15] = 'misc/states.js'
+variables[javascript_parsed][16] = 'misc/vertical-tabs.js'
+variables[javascript_parsed][17] = 'misc/jquery.cookie.js'
+variables[javascript_parsed][18] = 'misc/tabledrag.js'
+variables[javascript_parsed][19] = 'sites/all/modules/profiler_builder/js/profiler_builder.js'
+variables[language_negotiation_language_content][locale-interface][callbacks][language] = 'locale_language_from_interface'
+variables[language_negotiation_language_content][locale-interface][file] = 'includes/locale.inc'
+variables[language_negotiation_language_url][locale-url][callbacks][language] = 'locale_language_from_url'
+variables[language_negotiation_language_url][locale-url][callbacks][switcher] = 'locale_language_switcher_url'
+variables[language_negotiation_language_url][locale-url][callbacks][url_rewrite] = 'locale_language_url_rewrite_url'
+variables[language_negotiation_language_url][locale-url][file] = 'includes/locale.inc'
+variables[language_negotiation_language_url][locale-url-fallback][callbacks][language] = 'locale_language_url_fallback'
+variables[language_negotiation_language_url][locale-url-fallback][file] = 'includes/locale.inc'
+variables[language_types][language] = true
+variables[language_types][language_content] = false
+variables[language_types][language_url] = false
+variables[node_admin_theme] = '1'
+variables[theme_default] = 'basic'
+variables[user_cancel_method] = 'user_cancel_block'
+variables[user_email_verification] = 1
+variables[user_picture_dimensions] = '85x85'
+variables[user_picture_file_size] = '30'
+variables[user_picture_path] = 'pictures'
+variables[user_register] = '0'
+variables[jquery_update_jquery_version] = 1.10
+
+
